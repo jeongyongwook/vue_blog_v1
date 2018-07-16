@@ -6,8 +6,7 @@
       <li>
         <a
           href="https://vuejs.org"
-          target="_blank"
-        >
+          target="_blank">
           Core Docs
         </a>
       </li>
@@ -87,6 +86,11 @@
 export default {
   name: 'HelloWorld',
   data () {
+    const temp = true
+    if (temp) {
+
+    }
+
     return {
       msg: 'Welcome to Your Vue.js App'
     }
@@ -95,7 +99,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
 h1, h2 {
   font-weight: normal;
 }
